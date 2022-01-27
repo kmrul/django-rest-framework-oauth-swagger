@@ -5,7 +5,6 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.schemas import AutoSchema
 from core.models import Todo
-import coreapi
         
 
 class ListTodoAPIView(APIView):
